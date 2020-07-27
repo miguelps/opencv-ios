@@ -2,9 +2,6 @@
 //  ImageProcess.hpp
 //  opencvios
 //
-//  Created by Eugene Golovanov on 4/29/19.
-//  Copyright © 2019 Eugene Golovanov. All rights reserved.
-//
 
 #ifndef ImageProcess_hpp
 #define ImageProcess_hpp

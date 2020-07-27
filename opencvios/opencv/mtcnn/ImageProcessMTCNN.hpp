@@ -16,7 +16,8 @@
 #include <opencv2/imgproc.hpp>
 #import "detector.h"
 
-class ImageProcessMTCNN {
+class ImageProcessMTCNN
+{
     private:
         MTCNNDetector detector;
         std::string path;

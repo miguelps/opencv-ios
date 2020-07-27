@@ -11,7 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSInteger, ImageProcessType) {
+typedef NS_ENUM(NSInteger, ImageProcessType)
+{
     ImageProcessTypeCanny,
     ImageProcessTypeThreshold,
     ImageProcessTypeMTCNN,

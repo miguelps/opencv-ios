@@ -2,10 +2,6 @@
 //  ImageProcessDNN.hpp
 //  opencvios
 //
-//  Created by Eugene Golovanov on 4/30/19.
-//  Copyright © 2019 Eugene Golovanov. All rights reserved.
-//
-
 
 /*
  description here
@@ -25,7 +21,6 @@
  
  */
 
-
 #ifndef ImageProcessDNN_hpp
 #define ImageProcessDNN_hpp
 
@@ -38,15 +33,17 @@
 #include <vector>
 #include <stdlib.h>
 
-class ImageProcessDNN {
-    private:
-        cv::dnn::Net net;
-        std::string path;
-    public:
-        ImageProcessDNN(std::string path);
-    
-        // DNN inferencing
-        cv::Mat filterDNN(cv::Mat src);
+class ImageProcessDNN
+{
+private:
+    cv::dnn::Net net;
+    std::string path;
+
+public:
+    ImageProcessDNN(std::string path);
+
+    // DNN inferencing
+    cv::Mat filterDNN(cv::Mat src);
 };
 
 #endif /* ImageProcessDNN_hpp */
